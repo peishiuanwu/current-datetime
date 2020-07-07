@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<script type="text/javascript" src="main.js"></script>
+		<style lang="css">
+			html,
+			body {
+			  height: 100%;
+			}
+			body {
+			  background: #0f3854;
+			  background: radial-gradient(ellipse at center,  #0a2e38  0%, #000000 70%);
+			  background-size: 100%;
+			}
+			.message {
+				font-size: 30px;
+				font-family: 'Share Tech Mono', monospace;
+		    color: #ffffff;
+		    text-align: center;
+		    position: absolute;
+		    left: 50%;
+		    top: 50%;
+		    transform: translate(-50%, -50%);
+		    color: #daf6ff;
+		    text-shadow: 0 0 20px rgba(10, 175, 230, 1),
+		                 0 0 20px rgba(10, 175, 230, 0);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="message">
+			Hello，現在時間：<span id="dateTime"></span>
+		</div>
+	</body>
+</html>
